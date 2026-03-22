@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#1e1b4b,#312e81,#4c1d95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.signin-card h2 {
+    margin-bottom: 10px;
+}
+
+.signin-card p {
+    color: #cbd5f5;
+    margin-bottom: 25px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.primary {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg,#6a5cff,#a855f7);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.primary:hover {
+    transform: translateY(-2px);
+}
+
+.extra {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.extra a {
+    color: #a855f7;
+    text-decoration: none;
+}
+
+.extra span {
+    color: #6a5cff;
+    cursor: pointer;
+}
